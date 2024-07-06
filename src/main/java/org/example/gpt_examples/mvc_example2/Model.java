@@ -1,4 +1,4 @@
-package org.example.mvc_example2;
+package org.example.gpt_examples.mvc_example2;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
@@ -6,7 +6,7 @@ import java.beans.PropertyChangeSupport;
 public class Model {
     private String text;
     private boolean checked;
-    private PropertyChangeSupport support;
+    private final PropertyChangeSupport support;
 
     public Model() {
         support = new PropertyChangeSupport(this);

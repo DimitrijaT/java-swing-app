@@ -1,17 +1,17 @@
-package org.example.mvc_example2;
+package org.example.gpt_examples.mvc_example2;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
 
 public class View {
-    private JFrame frame;
-    private JTextField textField;
-    private JButton updateButton;
-    private JLabel label;
-    private JCheckBox checkBox;
-    private JList<String> list;
-    private DefaultListModel<String> listModel;
+    private final JFrame frame;
+    private final JTextField textField;
+    private final JButton updateButton;
+    private final JLabel label;
+    private final JCheckBox checkBox;
+    private final JList<String> list;
+    private final DefaultListModel<String> listModel;
 
     public View() {
         frame = new JFrame("Swing MVC Example");

@@ -1,14 +1,14 @@
-package org.example.mvc_example;
+package org.example.gpt_examples.mvc_example;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
 
 public class View {
-    private JFrame frame;
-    private JTextField textField;
-    private JButton button;
-    private JLabel label;
+    private final JFrame frame;
+    private final JTextField textField;
+    private final JButton button;
+    private final JLabel label;
 
     public View() {
         frame = new JFrame("MVC Example");

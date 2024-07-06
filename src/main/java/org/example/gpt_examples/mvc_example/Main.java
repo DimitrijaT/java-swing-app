@@ -1,4 +1,4 @@
-package org.example.mvc_example;
+package org.example.gpt_examples.mvc_example;
 
 public class Main {
     public static void main(String[] args) {
